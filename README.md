@@ -4,7 +4,7 @@ You're in charge of building a simple Bookstore system. We'll give you **full co
 
 #### Creating a bookstore
 
-The first thing we do is "creating a bookstore". We'll then use the bookstore to add authors or books. What _"is"_ a bookstore? Well, you know that. Honestly, we don't care. Do you want to make the bookstore a dictionary? That's fine. A list? Also fine. We just care about the interface. As long as we can add authors and books later, it's fine.
+The first thing we need to do is "create a bookstore". We'll then use the bookstore to add authors or books. What _"is"_ a bookstore? Well, you know that. Honestly, we don't care. Do you want to make the bookstore a dictionary? That's fine. A list? Also fine. We just care about the interface. As long as we can add authors and books later, it's fine.
 
 ```python
 bookstore = create_bookstore("Rmotr's bookstore")
