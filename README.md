@@ -1,6 +1,6 @@
 # Bookstore management system
 
-You're in charge of building a simple Bookstore system. We'll give you **full control** over the design of this system, we'll just make sure that the **interface** works as expected. Let's start describing it.
+You're in charge of building a simple Bookstore system. We'll give you **full control** over the design of this system, we'll just make sure that the **interface** works as expected. Discuss with your team what's the best way to design this particular system. Let's start describing it.
 
 #### Creating a bookstore
 
