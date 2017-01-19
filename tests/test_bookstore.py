@@ -11,11 +11,11 @@ class BookstoreTestCase(unittest.TestCase):
     def test_add_get_authors(self):
         store = create_bookstore("rmotr's bookstore")
 
-        poe = add_author(store, 'Edgar Alan Poe', 'US')
+        poe = add_author(store, 'Edgar Allan Poe', 'US')
         borges = add_author(store, 'Jorge Luis Borges', 'AR')
         joyce = add_author(store, 'James Joyce', 'UK')
 
-        self.assertEqual(poe['name'], 'Edgar Alan Poe')
+        self.assertEqual(poe['name'], 'Edgar Allan Poe')
         self.assertIsNotNone(poe['id'])
         self.assertEqual(poe['nationality'], 'US')
 
@@ -40,7 +40,7 @@ class BookstoreTestCase(unittest.TestCase):
     def test_add_get_books(self):
         store = create_bookstore("rmotr's bookstore")
 
-        poe = add_author(store, 'Edgar Alan Poe', 'US')
+        poe = add_author(store, 'Edgar Allan Poe', 'US')
         borges = add_author(store, 'Jorge Luis Borges', 'AR')
         joyce = add_author(store, 'James Joyce', 'UK')
 
