@@ -15,7 +15,7 @@ bookstore = create_bookstore("Rmotr's bookstore")
 Once you create a bookstore, you can add authors to it. For example:
 
 ```
-poe = add_author(bookstore, 'Edgar Alan Poe', 'US')
+poe = add_author(bookstore, 'Edgar Allan Poe', 'US')
 print(poe['name'])
 print(poe['nationality'])
 print(poe['id'])
