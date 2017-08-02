@@ -20,7 +20,7 @@ authors = [poe, borges, austen]
 books = [raven, ficciones]
 ```
 
-The issue is that we need just 1 object to represent our bookstore. What'd be a good way to group all this information together? A dictionary might be a great idea:
+The issue is that we need just 1 object to represent our bookstore. What'd be a good way to group all this information together? A dictionary might be a great idea (and that's why we chose it!):
 
 ```python
 bookstore = {
