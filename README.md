@@ -36,6 +36,7 @@ We'll also be able to add books to our bookstore. **Here's one of the places we'
 * Book's title
 * Book's ISBN
 * Book's author
+* Book's ID
 
 The way for us to indicate the author is by specifying the author's id. Example:
 
