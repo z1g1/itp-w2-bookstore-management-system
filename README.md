@@ -12,7 +12,7 @@ The first thing we need to do is "create a bookstore". We'll then use the bookst
 bookstore = create_bookstore("Rmotr's bookstore")
 ```
 
-If you look at the empty functions in bookstore.py, every one of them after create_bookstore receives bookstore as the first parameter. For this project, a bookstore is created in the unit tests and treated like a global dictionary in your tests. Remember how your bookstore is a dictionary? Dictionaries are mutable. That means if we pass your bookstore dictionary to each of the other functions, if the function changes or adds a value to the dictionary, that change remains after the function ends. Use this knowledge to store and access books and authors in your functions. :)
+If you look at the empty functions in bookstore.py, every one of them after create_bookstore receives `bookstore` as the first parameter. For this project, a bookstore is created in the unit tests and treated like a global dictionary in your tests. Remember how your bookstore is a dictionary? Dictionaries are mutable. That means if we pass your bookstore dictionary to each of the other functions, if the function changes or adds a value to the dictionary, that change remains after the function ends. Use this knowledge to store and access books and authors in your functions. :)
 
 #### Adding authors
 
